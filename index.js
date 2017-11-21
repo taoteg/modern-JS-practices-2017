@@ -4,7 +4,7 @@
 import moment from 'moment';
 
 // index.js
-console.log("Hello from JavaScript!");
+console.log("Hello from JavaScript using webpack and babel using npm scripts!");
 
 // Use moment.js.
 console.log(moment().startOf('day').fromNow());

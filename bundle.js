@@ -1911,7 +1911,7 @@ function loadLocale(name) {
         try {
             oldLocale = globalLocale._abbr;
             var aliasedRequire = require;
-            __webpack_require__(121)("./" + name);
+            __webpack_require__(122)("./" + name);
             getSetGlobalLocale(oldLocale);
         } catch (e) {}
     }
@@ -4583,7 +4583,7 @@ return hooks;
 
 })));
 
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(120)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(121)(module)))
 
 /***/ }),
 /* 1 */
@@ -16000,6 +16000,14 @@ return zhTw;
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
+__webpack_require__(120);
+(function webpackMissingModule() { throw new Error("Cannot find module \"progress\""); }());
+
+
+/***/ }),
+/* 120 */
+/***/ (function(module, exports, __webpack_require__) {
+
 "use strict";
 
 
@@ -16010,7 +16018,7 @@ var _moment2 = _interopRequireDefault(_moment);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // index.js
-console.log("Hello from JavaScript!");
+console.log("Hello from JavaScript using webpack and babel!");
 
 // Use moment.js.
 // imports.
@@ -16024,7 +16032,7 @@ var name = "Bob",
 console.log('Hello ' + name + ', how are you ' + time + '?');
 
 /***/ }),
-/* 120 */
+/* 121 */
 /***/ (function(module, exports) {
 
 module.exports = function(module) {
@@ -16052,7 +16060,7 @@ module.exports = function(module) {
 
 
 /***/ }),
-/* 121 */
+/* 122 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -16307,7 +16315,7 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 121;
+webpackContext.id = 122;
 
 /***/ })
 /******/ ]);
