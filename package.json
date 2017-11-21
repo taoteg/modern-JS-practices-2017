@@ -18,5 +18,8 @@
   "homepage": "https://github.com/taoteg/modern-JS-practices-2017#readme",
   "dependencies": {
     "moment": "^2.19.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
   }
 }
