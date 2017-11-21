@@ -16000,16 +16000,28 @@ return zhTw;
 /* 119 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+var _moment = __webpack_require__(0);
+
+var _moment2 = _interopRequireDefault(_moment);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
 // index.js
-
-// imports.
-var moment = __webpack_require__(0);
-
 console.log("Hello from JavaScript!");
 
 // Use moment.js.
-console.log(moment().startOf('day').fromNow());
+// imports.
+// var moment = require('moment');
+// Use ES2015 imports.
+console.log((0, _moment2.default)().startOf('day').fromNow());
 
+// Using babel to transpile.
+var name = "Bob",
+    time = "today";
+console.log('Hello ' + name + ', how are you ' + time + '?');
 
 /***/ }),
 /* 120 */
