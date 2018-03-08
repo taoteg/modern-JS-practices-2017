@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/taoteg/modern-JS-practices-2017#readme",
   "dependencies": {
-    "moment": "^2.19.2"
+    "moment": "^2.21.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "webpack": "^3.8.1",
-    "webpack-dev-server": "^2.9.4"
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.2"
   }
 }
