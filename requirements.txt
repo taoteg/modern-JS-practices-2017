@@ -102,7 +102,7 @@ ptyprocess==0.5.2
 py==1.4.26
 pyasn1==0.3.2
 pycparser==2.18
-Pygments==2.2.0
+Pygments==2.7.4
 PyJWT==1.4.2
 pyOpenSSL==17.2.0
 -e git+https://bitbucket.org/taccaci/pytas.git@19dd9e7006f7f8332a1575d64a20031b6f5161fb#egg=pytas
