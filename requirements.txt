@@ -99,7 +99,7 @@ Pillow==4.2.1
 ply==3.4
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
-py==1.4.26
+py==1.10.0
 pyasn1==0.3.2
 pycparser==2.18
 Pygments==2.2.0
